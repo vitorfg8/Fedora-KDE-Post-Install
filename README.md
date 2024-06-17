@@ -292,7 +292,7 @@ To enable KDE Connect, follow the steps below:
 Install requirements on Fedora
 
 ``` bash
-sudo dnf install bash coreutils curl edk2-tools genisoimage grep jq mesa-demos pciutils procps python3 qemu sed socat spice-gtk-tools swtpm unzip usbutils util-linux xdg-user-dirs xrandr zsync
+sudo dnf install bash coreutils curl edk2-tools genisoimage grep jq mesa-demos pciutils procps python3 qemu sed socat spice-gtk-tools swtpm unzip usbutils util-linux xdg-user-dirs xrandr zsync spice-gtk-tools 
 ```
 
 Go to the /opt directory and clone the project
