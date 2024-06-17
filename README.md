@@ -304,3 +304,29 @@ quickemu --vm windows-11.conf --shortcut
 ```
 
 [Documentation](https://github.com/quickemu-project/quickemu)
+
+## KDE Connect
+
+> KDE Connect is a project that enables all your devices to communicate with each other. Here's a few things KDE Connect can do:
+> 
+> - Receive your phone notifications on your desktop computer and reply to messages
+> - Control music playing on your desktop from your phone
+> - Use your phone as a remote control for your desktop
+> - Check your phone's battery level from the desktop
+> - Ring your phone to help find it
+> - Share files and links between devices
+> - Browse your phone from your desktop
+> - Control the desktop's volume using your phone
+> - Send SMS from your desktop
+
+KDE Connect can be downloaded for [Android](https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp) and [iOS](https://apps.apple.com/us/app/kde-connect/id1580245991).
+
+To enable KDE Connect, follow the steps below:
+
+1. Open KDE Connect on your computer and phone. You should now be able to see in each screen the name of the device you wish to pair with.
+
+2. Request pairing in one of the two devices. The other device will show a prompt asking to accept the pairing request.
+
+3. Confirm pairing.
+
+[Documentation](https://kdeconnect.kde.org/)
