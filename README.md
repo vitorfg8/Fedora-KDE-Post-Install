@@ -8,6 +8,7 @@
   alt="Dark theme"
   width="400" />
 
+This tutorial aims to improve the [Fedora Linux](https://fedoraproject.org/) experience for everyday use.
 
 ## Updating the system
 
