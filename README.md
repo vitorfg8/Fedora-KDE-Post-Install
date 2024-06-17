@@ -212,7 +212,7 @@ sudo ./install.sh -d /usr/share/icons/ -a # all color variants and SDDM support
 - Wallpaper (Desktop, Lockscreen and SDDM): [Blue and white round illustration](https://unsplash.com/pt-br/fotografias/blue-and-white-round-illustration-LpbyDENbQQg) | [Brown cardboard box with yellow light](https://unsplash.com/pt-br/fotografias/caixa-de-papelao-marrom-com-luz-amarela-d2w-_1LJioQ) 
 - Font: Inter
   
-  To install the Inter Font use the command below:
+  To install the Inter font use the command below:
 
   ``` bash
   sudo dnf install rsms-inter-fonts
@@ -258,6 +258,32 @@ ollama run [model name]
 
 [Documentation](https://github.com/ollama/ollama)
 
+## KDE Connect (optional)
+
+> KDE Connect is a project that enables all your devices to communicate with each other. Here's a few things KDE Connect can do:
+> 
+> - Receive your phone notifications on your desktop computer and reply to messages
+> - Control music playing on your desktop from your phone
+> - Use your phone as a remote control for your desktop
+> - Check your phone's battery level from the desktop
+> - Ring your phone to help find it
+> - Share files and links between devices
+> - Browse your phone from your desktop
+> - Control the desktop's volume using your phone
+> - Send SMS from your desktop
+
+KDE Connect can be downloaded for [Android](https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp) and [iOS](https://apps.apple.com/us/app/kde-connect/id1580245991).
+
+To enable KDE Connect, follow the steps below:
+
+1. Open KDE Connect on your computer and phone. You should now be able to see in each screen the name of the device you wish to pair with.
+
+2. Request pairing in one of the two devices. The other device will show a prompt asking to accept the pairing request.
+
+3. Confirm pairing.
+
+[Documentation](https://kdeconnect.kde.org/)
+
 ## Virtual Machines with Quickemu (optional)
 
 > Quickemu is a wrapper for the excellent QEMU that automatically "does the right thing" when creating virtual machines. No requirement for exhaustive configuration options. You decide what operating system you want to run and Quickemu takes care of the rest 🤖
@@ -287,13 +313,13 @@ alias quickemu='/opt/quickemu/quickemu'
 alias quickget='/opt/quickemu/quickget'
 ```
 
-#### Creating a VM
+#### Example
 
 Ubuntu VM + Shortcut
 
 ``` bash
-quickget ubuntu 22.04
-quickemu --vm ubuntu-22.04.conf --shortcut
+quickget ubuntu 24.04
+quickemu --vm ubuntu-24.04.conf --shortcut
 ``` 
 
 Windows 11 VM + Shortcut
@@ -304,29 +330,3 @@ quickemu --vm windows-11.conf --shortcut
 ```
 
 [Documentation](https://github.com/quickemu-project/quickemu)
-
-## KDE Connect
-
-> KDE Connect is a project that enables all your devices to communicate with each other. Here's a few things KDE Connect can do:
-> 
-> - Receive your phone notifications on your desktop computer and reply to messages
-> - Control music playing on your desktop from your phone
-> - Use your phone as a remote control for your desktop
-> - Check your phone's battery level from the desktop
-> - Ring your phone to help find it
-> - Share files and links between devices
-> - Browse your phone from your desktop
-> - Control the desktop's volume using your phone
-> - Send SMS from your desktop
-
-KDE Connect can be downloaded for [Android](https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp) and [iOS](https://apps.apple.com/us/app/kde-connect/id1580245991).
-
-To enable KDE Connect, follow the steps below:
-
-1. Open KDE Connect on your computer and phone. You should now be able to see in each screen the name of the device you wish to pair with.
-
-2. Request pairing in one of the two devices. The other device will show a prompt asking to accept the pairing request.
-
-3. Confirm pairing.
-
-[Documentation](https://kdeconnect.kde.org/)
