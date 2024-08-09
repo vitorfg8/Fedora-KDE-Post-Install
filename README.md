@@ -295,13 +295,13 @@ Install requirements on Fedora
 sudo dnf install bash coreutils curl edk2-tools genisoimage grep jq mesa-demos pciutils procps python3 qemu sed socat spice-gtk-tools swtpm unzip usbutils util-linux xdg-user-dirs xrandr zsync spice-gtk-tools 
 ```
 
-Go to the /opt directory and clone the project
+Go to the $HOME/.local/bin/ directory and clone the project
 
 ``` bash
 git clone --filter=blob:none https://github.com/quickemu-project/quickemu
 ```
 
-Add alias in bash
+Add the quickemu path to the $PATH environment variable
 
 ``` bash
 nano .bashrc
@@ -310,8 +310,13 @@ Paste the code below
 
 ``` bash
 #Quickemu
-alias quickemu='/opt/quickemu/quickemu'
-alias quickget='/opt/quickemu/quickget'
+export PATH=$PATH:$HOME/.local/bin/quickemu/
+```
+
+Save and reload the .bashrc file
+
+``` bash
+source .bashrc
 ```
 
 #### Example
