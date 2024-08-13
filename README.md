@@ -8,7 +8,7 @@
   alt="Dark theme"
   width="400" />
 
-This tutorial aims to improve the [Fedora Linux](https://fedoraproject.org/) experience for everyday use.
+This tutorial aims to improve the [Fedora Linux](https://fedoraproject.org/) experience for everyday use. You can do the same step by step in other distributions but the commands may be a little different.
 
 ## Updating the system
 
